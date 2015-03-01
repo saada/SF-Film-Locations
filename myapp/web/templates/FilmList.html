@@ -1,0 +1,26 @@
+<script type="text/template" id="film-list-template">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Locations</th>
+                <th>Release Year</th>
+                <th>Writer</th>
+                <th>Director</th>
+                <th>Distribution</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% _.each(films, function(film) { %>
+                <tr>
+                    <td><%= film.get('title') %></td>
+                    <td><%= film.get('locations') %></td>
+                    <td><%= film.get('release_year') %></td>
+                    <td><%= film.get('writer') %></td>
+                    <td><%= film.get('director') %></td>
+                    <td><%= film.get('distributor') %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>

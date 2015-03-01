@@ -1,0 +1,6 @@
+<script type="text/template" id="film-select-template">
+    <option value="">( select film )</option>
+    <% _.each(titles, function(title) { %>
+        <option value="<%= title %>"><%= title %></option>
+    <% }); %>
+</script>

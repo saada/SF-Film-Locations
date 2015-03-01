@@ -1,0 +1,5 @@
+# PHPStorm
+.idea
+# folders created by yii2 for logging and caching. No need to version control.
+/runtime
+/web
