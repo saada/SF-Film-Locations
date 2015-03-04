@@ -11,6 +11,7 @@ After setting up your docker machine, run the following
 		cd <repo_folder>
 		docker pull saada/uber
 		docker run -d -p 8080:80 -v `pwd`/myapp:/app --name uber saada/uber
+		docker exec -it uber composer install
 
 The app is accessible through the browser at your docker machine address.
 
@@ -21,7 +22,7 @@ Otherwise, if you're using boot2docker, you can run `boot2docker ip` to get the 
 
 # Hosting
 
-The app is deployed on digital ocean at the following url: 
+The app is deployed on digital ocean at the following url: http://104.131.113.19/
 
 # Files written by me
 myapp/views/*
