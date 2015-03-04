@@ -25,18 +25,20 @@ Otherwise, if you're using boot2docker, you can run `boot2docker ip` to get the 
 The app is deployed on digital ocean at the following url: http://104.131.113.19/
 
 # Files written by me
-myapp/views/*
-myapp/web/css/*
-myapp/web/js/*
-myapp/web/templates/*
-myapp/services/*
-myapp/controllers/*
-myapp/config/params.php
-myapp/composer.json
-.gitignore
-nginx.conf
-Dockerfile
-README.md
+
+	myapp/views/*
+	myapp/assets/*
+	myapp/web/css/*
+	myapp/web/js/*
+	myapp/web/templates/*
+	myapp/services/*
+	myapp/controllers/*
+	myapp/config/params.php
+	myapp/composer.json
+	.gitignore
+	nginx.conf
+	Dockerfile
+	README.md
 
 # Frameworks/Libraries used
 ## PHP
