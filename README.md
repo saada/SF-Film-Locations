@@ -42,13 +42,13 @@ The app is deployed on digital ocean at the following url: http://104.131.113.19
 
 # Frameworks/Libraries used
 ## PHP
-Yii2
-Guzzle
+	Yii2
+	Guzzle
 ## CSS
-Bootstrap
-Select2
+	Bootstrap
+	Select2
 ## JS
-jQuery
-Underscore.js
-Backbone.js
-Select2
+	jQuery
+	Underscore.js
+	Backbone.js
+	Select2
