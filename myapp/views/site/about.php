@@ -11,7 +11,7 @@ $this->title = 'About';
         <h1><?= Html::encode($this->title) ?></h1>
 
         <p>
-            This project is a submission for the Uber code challenge.
+            Find out where movies were filmed in San Francisco.
         </p>
     </div>
 </div>
