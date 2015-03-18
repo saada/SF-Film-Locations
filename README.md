@@ -35,10 +35,6 @@ In my case it's `http://192.168.99.100:8080/`.
 If you're using docker-machine, you can run `docker-machine ls` to find out the machine's ip.
 Otherwise, if you're using boot2docker, you can run `boot2docker ip` to get the ip.
 
-# Hosting
-
-The app is deployed on digital ocean at the following url: http://104.131.113.19/
-
 # Files written by me
 
 	myapp/views/*
